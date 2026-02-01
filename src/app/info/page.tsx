@@ -1,5 +1,10 @@
+import Greeting from "../components/serverComponent";
+
 export default function Home() {
   return (
-    <>Info Page</>
+    <>
+      Info Page
+      <Greeting name="server" />
+    </>
   );
 }
